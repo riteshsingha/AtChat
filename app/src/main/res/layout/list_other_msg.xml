@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="2dp"
+    android:id="@+id/item2click"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="TextView"
+            android:id="@+id/tvDesc"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_toEndOf="@+id/tvDesc"
+            android:layout_toRightOf="@+id/tvDesc"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="Test TextView"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

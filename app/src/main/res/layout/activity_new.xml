@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity">
+    <TextView
+        android:id="@+id/Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a Basic Chatting Application built by 4th Year CSE Students of ICFAI UNIVERSITY Tripura as 2nd Internship project. This app is still under development. "
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Details"
+        android:text="Developers: Ritesh Singha, Afshar Ali, Pallab Bhuyan."
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>
